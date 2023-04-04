@@ -1,0 +1,120 @@
+html,body{
+    height: 100vh;
+    width: 100wh;
+    margin: 0px 0px;
+}
+.container{
+height: 100%;
+width: max(100%,900px);
+display: flex;
+}
+.right{
+    width: 50%;
+    height: auto;
+    background-color: #2A2D39;
+    font-family: 'Roboto', sans-serif;
+
+}
+.left{
+    width: 50%;
+    height: auto;
+    display: grid;
+}
+.image{
+    height: 100%;
+    width: auto;
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/02/14/46/pit-bull-7825554_960_720.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    height: 20%;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined{
+    scale: 3;
+    color: #BCBFC7;
+    display: flex;
+}
+.name{
+    color: #BCBFC7;
+    font-family: 'Roboto', sans-serif;
+    margin-left:7%;
+}
+
+.upper{
+    box-sizing: border-box;
+    color: #BCBFC7;
+    padding: 20px;
+    height: 30%;
+}
+.form{
+    color: #2A2D39;
+    background-color: #8E847B;
+    padding: 20px;
+    
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2,50%)
+}
+.input{
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    width: 80%;
+}
+
+label{
+    margin-right: auto;
+}
+input{
+    padding: 3px;
+    background-color: #BCBFC7;
+    border: 0px;
+
+}
+.l,.r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#pet{
+    background-color: #BCBFC7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+#submit{
+    width: 40%;
+    height: 30px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #2A2D39;
+    margin-top: 5%;
+}
+.bottom{
+    box-sizing: border-box;
+    color: #BCBFC7;
+    padding: 20px;
+    font-size: small;
+}
+a{
+color: aliceblue;
+}
